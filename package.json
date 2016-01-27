@@ -1,0 +1,30 @@
+{
+  "name": "yamemebot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that generates meme",
+  "main": "app.js",
+  "dependencies": {
+    "md5": "^2.0.0",
+    "request": "^2.67.0",
+    "node-telegram-bot": "^0.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "YAMEMEBOT_TOKEN='Your Token' node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iambibhas/YAMemeBot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "meme"
+  ],
+  "author": "Bibhas D",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iambibhas/YAMemeBot/issues"
+  },
+  "homepage": "https://github.com/iambibhas/YAMemeBot#readme"
+}
