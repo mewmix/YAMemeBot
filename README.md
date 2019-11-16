@@ -23,3 +23,25 @@ How to Run
  - Then run the bot like -
 
         $ YAMEMEBOT_TOKEN='Your Token' node app.js
+        
+        
+
+/////////////////////////////////
+
+ TEMPORARY FIX - EDIT CAUSES BOT TO CRASH 
+ 
+ 
+ START AS NORMAL ----- 
+ 
+ cd YAMemeBot/node_modules/node-telegram-bot/lib
+ 
+ sudo rm Bot.js
+ 
+ sudo nano ( copy paste this file ) https://github.com/depoio/node-telegram-bot/blob/master/lib/Bot.js
+ 
+ YAMEMEBOT_TOKEN='Your Token' node app.js
+        
+ or create a script an nohup ./script.sh (with your token saved in the script & chmod +x to make it executable!) 
+ ///////////////
+ 
+ Profit!
