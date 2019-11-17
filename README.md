@@ -39,6 +39,11 @@ How to Run
  
  sudo nano ( copy paste this file ) https://github.com/depoio/node-telegram-bot/blob/master/lib/Bot.js
  
+ /////
+ 
+ Bot.js now in root of repo, move this to this folder and you're good! 
+ /////////
+ 
  YAMEMEBOT_TOKEN='Your Token' node app.js
         
  or create a script an nohup ./script.sh (with your token saved in the script & chmod +x to make it executable!) 
